@@ -16,7 +16,8 @@
     "node-pty": "^1.0.0",
     "ws": "^8.18.0"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": ["node-pty"]
-  }
+ "pnpm": {
+  "onlyBuiltDependencies": ["node-pty"],
+  "approvedBuilds": ["node-pty"]
+}
 }
